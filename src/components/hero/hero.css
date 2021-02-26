@@ -1,0 +1,59 @@
+/* css hero section */
+.bandeau {
+  background: url("../../img/hero-bg.jpg") center top no-repeat;
+  background-size: cover;
+  /* background: #000; */
+  height: calc(100vh - 130px);
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bandeau_titre {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.bandeau_titre h1 {
+  font-size: 3.5em;
+  padding: 1em;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+.bandeau_titre h1 {
+  padding: 2.5em 20%;
+}
+
+.bandeau_titre h1 {
+  color: rgb(255, 255, 255);
+  /* text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px; */
+  zoom: 1;
+}
+
+.bandeau::before {
+  content: "";
+  z-index: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.2) 85%, rgba(0, 0, 0, 0.3) 100%) 0% 0% repeat scroll rgba(0, 0, 0, 0);
+  position: absolute;
+  inset: 0px;
+}
+
+.bandeau_content{
+  z-index: 3;
+}
+
+@media screen and (max-width: 500px) {
+  .bandeau_titre h1 {
+    font-size: 2.3rem;
+    padding: 1em;
+    line-height: 1.8em;
+    text-align: center;
+  }
+
+  .bandeau_titre h1 {
+    padding: 1.5em 10%;
+  }
+
+}

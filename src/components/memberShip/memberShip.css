@@ -1,0 +1,113 @@
+/* css membership */
+.membership-section{
+  height: 90vh;
+  background: url("../../img/bg-1.jpg") center center no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.membership-content{
+  display: flex;
+  height: 80vh;
+  background-color: rgba(54, 93, 157, 0.73);
+  margin-left:50px;
+  margin-right: 50px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.membership-text{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.membership-text > h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.membership-text> div {
+  height: 3px;
+  width: 4vw;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #fff;
+}
+
+.p-1{
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.p{
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.membership-singup{
+  padding: 50px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 400px;
+  flex-basis: 400px !important;
+  /* flex: 1 1; */
+}
+
+.membership-singup > h3 {
+  font-weight: 600;
+  font-size: .9em
+}
+
+
+
+.membership-singup > h4 > strong {
+  font-size: 3.7em;
+  font-weight: 700;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.bouton a {
+  background-color: rgba(246, 58, 73, 0.85);
+  text-transform: uppercase;
+  /* display: inline-table;
+  overflow: hidden;
+  transition: all 0.3s ease 0s; */
+  text-decoration: none;
+  margin: 1em auto 0px;
+  color: #fff;
+  font-weight: 700;
+  padding: 20px 30px;
+}
+
+
+@media screen and (max-width: 500px){
+  .membership-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .membership-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgba(54, 93, 157, 0.73);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .p{
+    display: none;
+  }
+}

@@ -1,0 +1,120 @@
+/* css news section */
+.news-container{
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  margin: 0 auto;
+  /* max-width: 1100px; */
+}
+
+.news-header{
+  color: #555555;
+}
+
+.news-header h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.separator{
+  height: 3px;
+  width: 50px;
+  margin: 1.25rem;
+  background: #F0423C;
+}
+
+.news-content{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.news{
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.news-img_wrapper{
+  flex: auto;
+}
+
+.news-img{
+  width: 100%;
+}
+
+.news-title{
+  margin: .3em 0;
+  flex: auto;
+}
+
+.news-title_link{
+  color: #2E2E2E;
+  font-size: 1.6rem;
+}
+
+.news-text {
+  flex: auto;
+  text-transform: capitalize;
+  font-size: .8em;
+}
+
+.news>div>p{
+  text-transform: capitalize;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+.news-bottom{
+  /* flex: auto; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px #d1343d solid;
+}
+
+.btn{
+  text-transform: uppercase;
+  font-size: .75em;
+  font-weight: 700;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: .3s all ease;
+  background-color: #d1343d;
+  color: #FFF;
+}
+
+.all-news{
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 500px){
+  .news-content {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .all-news {
+    align-self: center;
+    margin-top: auto;
+    margin: 5% 0;
+  }
+
+  .news-container {
+    height: auto;
+    padding: 20px;
+  }
+}
