@@ -1,6 +1,6 @@
 /* css hero section */
 .bandeau {
-  background: url("../../img/hero-bg.jpg") center top no-repeat;
+  background: url("../../img/hero-bg_1.jpg") center top no-repeat;
   background-size: cover;
   /* background: #000; */
   height: calc(100vh - 130px);

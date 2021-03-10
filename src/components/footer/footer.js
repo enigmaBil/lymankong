@@ -2,7 +2,7 @@ import React from 'react'
 
 import './footer.css';
 
-import Logo_Footer from '../../img/logo-footer.svg'
+import Logo_Footer from '../../img/logo-footer.png'
 
 function footer() {
   return (
@@ -40,7 +40,7 @@ function footer() {
           </div>
           <div className="bloc_2">
             <div className="logo_site">
-              <a href="!#" alt="">		
+              <a href="/" alt="">		
                 <img src={Logo_Footer} title="" alt="" />           
               </a>
             </div>

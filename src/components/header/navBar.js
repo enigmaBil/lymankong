@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Link } from 'react-router-dom';
-import Logo from '../../img/logo.svg';
+import Logo from '../../img/logo.png';
 import { navBarData } from './navBarElements';
 
 const Navbar = ({toggle}) => {
@@ -12,7 +12,9 @@ const Navbar = ({toggle}) => {
         <nav className="menu">
           <div className="nav-container">
             <div className="nav-logo">
-              <img alt="logo" className="img-fluid" src={Logo}/>
+              <Link to="/">
+                <img alt="logo" className="img-fluid" src={Logo}/>
+              </Link>
             </div>
             <span className="mobile-icon" >
               <FaBars onClick={toggle} />

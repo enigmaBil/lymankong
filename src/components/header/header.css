@@ -233,6 +233,13 @@ a {
     /* margin-left: 24px; */
     margin-top: 0 !important;
   }
+
+      .img-fluid {
+        width: 100%;
+        /* width: 300px; */
+        height: 300px;
+        margin-top: -120px;
+      }
 }
 
 /* css nav Bar */
