@@ -19,7 +19,7 @@ function memberShip() {
             <p className="p">
               Sa mission, depuis sa création, est toujours restée la même : renforcer les liens 
               de camaraderie et d’entraide entre les anciens élèves, 
-              assurant ainsi le rayonnement du Lycée Charles de Gaulle de Londres dans le monde.
+              assurant ainsi le rayonnement du Lycée du Manengouba, Nkongsamba dans le monde.
             </p>
             <p className="p">
               Votre adhésion vous permet d’accéder à notre annuaire en ligne, 

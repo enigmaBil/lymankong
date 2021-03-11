@@ -63,7 +63,7 @@ function footer() {
         <div className="ligne_footer">
           <div className="ligne_footer_content">
               <div className="copyright">
-                  © 2021 - Les Anciens du Lycée Français Charles de Gaulle de Londres
+                  © 2021 - Les Anciens du Lycée du Manengouba, Nkongsamba 
               </div>
               <div className="credit">
                   site by <a href="!#" title="Camertronix Sarl">Camertronix Sarl</a> 
